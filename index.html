@@ -1,0 +1,78 @@
+<html>
+<head>
+
+<title>online social media </title>
+<link rel ="stylesheet" type ="text/javascript" href ="new.css"/>
+<script type="text/javascript">
+function validateForm()
+{       var name= /[A-Za-z ]{4,}/
+        var b = document.getElementsByName("username")[0].value;
+	var user=document.singup.username.value;
+	var user=user.trim();
+	var pass=document.singup.password.value;
+
+	if(user == '')
+	{
+		alert("Please Enter Username");
+		return false;
+	}
+        
+        if(!name.test(b)){
+          alert("Check the user name atleast(4 char required)");
+          return false;
+           }
+ 
+	if(pass == '')
+	{
+	alert("Please Enter Password");
+		return false;
+	}
+}
+</script>
+
+</head>
+ <body>
+      <form id="singup" name="singup" method="post"  action="create.php" onsubmit="return validateForm()" >
+	<table width="510" border="0" align="center">
+	           <h2> SINGUP </h2>
+		<tr>
+			<td><p>Username</p></td>
+			<td><input type="text" name="username" id="username" /></td>
+		</tr>
+		<tr>
+			<td><p>E-mail</p></td>
+			<td><input type="E-mail" name="E-mail" id="E-mail" /></td>
+		</tr>
+                <tr>
+			<td><p>FirstName</p></td>
+			<td><input type="first-name" name="first-name" id="first-name" /></td>
+		</tr>
+                <tr>
+			<td><p>LastName</p></td>
+			<td><input type="LastName" name="LastName" id="LastName" /></td>
+		</tr>
+               <tr>
+			<td><p>Password </p></td>
+			<td><input type="Password" name="Password" id="Password" /></td>
+		</tr>
+
+
+		<tr>
+			<td>&nbsp</td>
+			<td><input type="submit" name="button" id="button" value="Submit" /></td>
+		</tr>
+
+	</table>
+
+</form>
+
+
+
+ </body>
+
+
+
+
+
+
+</html>
