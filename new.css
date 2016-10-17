@@ -1,0 +1,80 @@
+html{
+                        background:blue;
+                        } 
+                         
+                        form{ 
+                                width:40%;
+        height:auto;
+        margin-left:auto; 
+        margin-right:auto; 
+        outline-style: solid;
+        outline-color: grey;
+        outline-width: 3px;
+        border:45px;
+        margin-top : 90px;
+        border-radius:10px; 
+                        } 
+
+                        form input{ 
+                                border: 2px solid #dadada; 
+        border-radius: 7px;
+                                width: 80%; 
+                                height: 30px;
+                                display: block;
+                                margin-left: auto; 
+                                padding-left: 6px;
+                                margin-right: auto; 
+                                margin-bottom: 15px;
+
+                        } 
+
+                        form select{ 
+                                border: 2px solid #dadada; 
+                                border-radius: 7px;
+                                width: 85%;
+                                height: 35px; 
+                                display: block; 
+                                margin-left: auto; 
+                                padding-left: 6px; 
+                                margin-right: auto; 
+                                margin-bottom: 15px; 
+                         
+                        } 
+                         
+                        form button{ 
+                                border:none; 
+                                height: 30px;
+                                width:auto;
+                                dISplay: block;
+                                margin-left: auto; 
+                                margin-right: auto; 
+                                background: #0B7205; 
+                                color:white;
+                                border-radius: 7px;
+                                text-align:center;
+                                padding-top: 7px;
+                        } 
+                        form h2{ 
+                                border-top-left-radius: 30px; 
+                                border-top-right-radius: 30px; 
+                                background: #FF5055; 
+                                padding-top: 15px;
+                                padding-bottom: 15px; 
+                                text-align: center;
+                                color:white; 
+                                font-size:24px;
+                        }
+                        p{
+                           border:none;
+                                height: 30px;
+                                width:auto;
+                                display: block; 
+                                margin-left: auto; 
+                                margin-right: auto;
+                                background: #0B7278;
+                                color:white;
+                                border-radius: 7px;
+                                text-align:center;
+                                padding-top: 7px;
+
+                        }
